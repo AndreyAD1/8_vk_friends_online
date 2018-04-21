@@ -1,6 +1,6 @@
 # Watcher of Friends Online
 
-This script works with social network vk.com.
+This script works with social network [vk.com](https://vk.com).
 The script displays names and surnames of user friends who are
 online right now.
 
