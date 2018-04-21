@@ -31,12 +31,12 @@ def get_online_friends(login, password, api_version):
 def print_friend_names_to_console(online_friends):
     online_friends_message = 'Your online friends:\n'
     for friend in online_friends:
-        name = friend['first_name']
-        surname = friend['last_name']
+        friend_name = friend['first_name']
+        friend_surname = friend['last_name']
         online_friends_message = '{}{} {}\n'.format(
             online_friends_message,
-            name,
-            surname
+            friend_name,
+            friend_surname
         )
     print(online_friends_message)
 
