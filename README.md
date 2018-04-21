@@ -1,16 +1,33 @@
 # Watcher of Friends Online
 
-[TODO. There will be project description]
+This script works with social network vk.com.
+The script displays names and surnames of user friends who are
+online right now.
 
 # How to Install
 
-Python 3 should be already installed. Then use pip (or pip3 if there is a conflict with old Python 2 setup) to install dependencies:
+Python 3 should already be installed. Then use pip (or pip3 if there is a conflict with old Python 2 setup) to install dependencies:
 
 ```bash
 pip install -r requirements.txt # alternatively try pip3
 ```
 
-Remember, it is recommended to use [virtualenv/venv](https://devman.org/encyclopedia/pip/pip_virtualenv/) for better isolation.
+Remember that it is recommended to use [virtualenv/venv](https://devman.org/encyclopedia/pip/pip_virtualenv/) for better isolation.
+
+# Quick Start
+
+Having ran the script a user should enter VK login and password.
+
+To run script on Linux:
+```bash
+$ vk_friends_online.py
+Enter VK login: 12345
+Enter VK password: ******
+Your online friends:
+Павел Фёдоров
+Василий Петров
+```
+Windows usage is the same.
 
 # Project Goals
 
